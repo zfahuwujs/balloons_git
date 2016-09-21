@@ -1,0 +1,3 @@
+<?php
+// fetch test
+?>
