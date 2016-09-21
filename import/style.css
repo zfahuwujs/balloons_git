@@ -1,0 +1,122 @@
+body {
+	font-family: arial,helvetica;
+	font-size: 10pt;
+	background: #eaeaea;
+}
+.blue {
+	color: blue;
+}
+.red, a.red, a.red:visited {
+	color: red;
+}
+.mainblock {
+	font-size: 10pt;
+	line-height: 1.5em;
+	text-align: center;
+}
+.navbar {
+	border: 2px solid #777777;
+	background: #cacaca;
+	padding: 5px;
+	width: 160px;
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+.warning {
+	border: 2px solid #0000bb;
+	background: #cacaff;
+	padding: 5px;
+	font-size: 7pt;
+	text-align: left;
+}
+.backupred {
+	border: 2px solid #bb0000;
+	background: #ffcaca;
+	padding: 5px;
+	width: 160px;
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-align: center;
+}
+.backupgreen {
+	border: 2px solid #00bb00;
+	background: #caffca;
+	padding: 5px;
+	width: 160px;
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-align: center;
+}
+.testblue {
+	border: 2px solid #0000bb;
+	background: #cacaff;
+	padding: 5px;
+	font-size: 10pt;
+	line-height: 1.5em;
+	text-align: center;
+}
+.title {
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+a, a:visited {
+	color: #0033ff;
+	text-decoration: none;
+}
+a:hover {
+	background-color: ffffff;
+}
+.tdEven {
+	background-color: #E7E9FE;
+}
+.tdOdd {
+	background-color: #FFFFFF;
+}
+.copyText {
+	font-size: 12px;
+}
+.docSection {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 0px 0px 0px;
+}
+.tdTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #050F72;
+	font-weight: bold;
+}
+.pageTitle {
+	font-size: 20px;
+	color: #0B70CE;
+	font-weight: bold;
+}
+.version {
+	text-align: right;
+	font-size: 8pt;
+	line-height: 1.3em;
+}
+a.txtLink:visited, a.txtLink:link, a.txtLink:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #050F72;
+	text-decoration: none;
+}
+a.txtLink:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF9900;
+	text-decoration: none;
+}
+a.txtNullLink:visited, a.txtNullLink:link, a.txtNullLink:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	text-decoration: none;
+}

@@ -1,0 +1,9 @@
+<?php
+
+/* <rf> search engine friendly url mods */
+
+include("shop.php");  
+
+/* <rf> end mods */
+
+?>

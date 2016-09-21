@@ -1,0 +1,48 @@
+# <rf> search engine friendly mod
+
+# 1) only used if you selected 'Apache directory lookback and ForceType supported' as your server configuration
+# <Files shop>  
+#  ForceType application/x-httpd-php  
+# </Files>
+# end 1)
+
+# 2) only used if you selected 'Apache RewriteRule supported' as your server configuration
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} (.+) 
+RewriteRule cat_(.*).html index.php?act=viewCat&catId=$1&%1 [L]
+RewriteRule cat_(.*).html index.php?act=viewCat&catId=$1 [L]
+
+RewriteCond %{QUERY_STRING} (.+) 
+RewriteRule prod_(.*).html index.php?act=viewProd&productId=$1&%1 [L]
+RewriteRule prod_(.*).html index.php?act=viewProd&productId=$1 [L]
+
+RewriteCond %{QUERY_STRING} (.+) 
+RewriteRule info_(.*).html index.php?act=viewDoc&docId=$1&%1 [L]
+RewriteRule info_(.*).html index.php?act=viewDoc&docId=$1 [L]
+
+RewriteCond %{QUERY_STRING} (.+) 
+RewriteRule tell_(.*).html index.php?act=taf&productId=$1&%1 [L]
+RewriteRule tell_(.*).html index.php?act=taf&productId=$1 [L]
+# end 2)
+
+# <rf> end mod
+
+#Error documents
+ErrorDocument 404 /index.php?act=viewDoc&docId=5
+
+#RewriteCond %{HTTP_HOST} ^purelegalsystems.co.uk	
+#RewriteRule (.*) http://www.purelegalsystems.co.uk//$1 [R=301,L]
+
+
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ / [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ / [R=301,L]
+
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteRule \.(gif|jpe?g|png|bmp) /skins/FixedSize/styleImages/thumb_nophoto.gif [NC,L]

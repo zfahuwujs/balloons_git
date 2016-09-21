@@ -1,0 +1,5 @@
+[12-Mar-2011 21:00:26] PHP Fatal error:  Cannot redeclare mou() (previously declared in /home/odetroc1/public_html/animitenew/includes/functions.inc.php:1004) in /home/odetroc1/public_html/animitenew/admin/includes/functions.inc.php on line 544
+[19-Mar-2011 21:16:16] PHP Fatal error:  Call to undefined function  page() in /home/odetroc1/public_html/animitenew/admin/settings/index.php on line 82
+[06-Apr-2011 17:26:31] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Compilation failed: nothing to repeat at offset 10 in /home/odetroc1/public_html/animitenew/admin/settings/index.php on line 170
+[06-Apr-2011 17:27:14] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Compilation failed: nothing to repeat at offset 11 in /home/odetroc1/public_html/animitenew/admin/settings/index.php on line 170
+[06-Apr-2011 17:27:36] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Compilation failed: nothing to repeat at offset 11 in /home/odetroc1/public_html/animitenew/admin/settings/index.php on line 170

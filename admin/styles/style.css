@@ -1,0 +1,343 @@
+/* DEFAULT CUBECART 3 ADMIN STYLE SHEET */
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+.addNew, .submit{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	background-color:transparent;
+	width:133px;
+	height:32px;
+	line-height:32px;
+	border: none;
+	background-image: url(../../images/btnBg.png);
+	background-repeat:no-repeat;
+	display:inline-block;
+	text-align:center;
+	font-size:12px;
+	cursor:pointer;
+}
+
+.addNew:hover, .submit:hover{
+	color:#0B70CE;
+}
+
+.elementHide{
+    display:none;
+}
+
+#loginBar {
+	position: absolute;
+	left: 185px;
+	top: 6px;
+	padding-top:7px;
+	padding-left: 8px;
+	height: 49px;
+}
+#dateBar {
+	position: absolute;
+	right: 7px;
+	top: 6px;
+	padding-left: 8px;
+	height: 49px;
+	text-align: right;
+}
+#dateBar ul{
+	flaot:right;
+	list-style-type:none;
+}
+#dateBar li{
+	float:right;
+	list-style-type:none;
+}
+.tdContent {
+	background-color: #EAEAEA;
+	background-image: url(../images/evo/bg_right.png);
+}
+.tdNav {
+	background-image: url(../images/evo/bg_left.png);
+	background-position:left;
+	background-repeat:repeat-y;
+}
+.navMenu {
+	
+}
+.navMenu li{
+	list-style-type:none;
+	width:178px
+}
+.navMenu a{
+	background-image: url(../images/evo/bg_nav.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	height:26px;
+	line-height:26px;
+	padding:2px 0px 2px 15px;
+	display:block;
+	font-size:13px !important;
+	color:#787878 !important;
+}
+.navMenu a:hover{
+	background-color:#A2DAFD;
+	background-image: url(../images/evo/bg_header_active.png) !important;
+	background-position:top !important;
+}
+.leftNavActive{
+	background-color:#A2DAFD;
+	background-image: url(../images/evo/bg_header_active.png) !important;
+	background-position:top !important;
+}
+.topNavActive{
+	text-decoration:underline !important;
+}
+.navTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0B70CE;
+	background-image: url(../images/evo/bg_nav.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	height:26px;
+	line-height:26px;
+	padding:2px 0px 2px 5px;
+	display:block;
+	width:172px;
+}
+#topBar {
+	height: 49px;
+	background-color: #FFFFFF;
+	background-image: url(../images/evo/bg_header.png);
+	background-repeat:repeat-x;
+}
+#subBar {
+	height: 30px;
+	background-color: #FFFFFF;
+	background-image: url(../images/evo/subnav_bg.png);
+	background-repeat:repeat-x;
+	clear:both;
+}
+#subBar li{
+	float:left;
+	list-style-type:none;
+}
+#subBar a{
+	height: 30px;
+	line-height:30px;
+	padding:0px 10px;
+	display:block;
+	font-size:12px;
+	color:#ffffff;
+	text-decoration:none;
+	border-right:1px solid #9b9b9b;
+	font-weight:bold;
+}
+#subBar a:hover{
+	text-decoration:underline;
+}
+#contentPad {
+	padding: 6px;
+}
+
+.mainTable {
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+.tdTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #555555;
+	font-weight: bold;
+	height:31px;
+	background-color:transparent;
+	background-image: url(../images/evo/header_r.png);
+}
+.tdEven {
+	background-color: #f2f2f2;
+}
+.tdOdd {
+	background-color: #FFFFFF;
+}
+.mainTable tr:hover .tdOdd,.mainTable tr:hover .tdEven{
+	background-color:#a2dafd;
+	background-image: url(../images/evo/bg_header_active.png);
+	background-repeat:repeat-x;
+}
+.tdText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+.tdRichText {
+	background-color: #EFEFDE;
+}
+.copyText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+a.txtLink:visited, a.txtLink:link, a.txtLink:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #111111;
+	text-decoration: none;
+}
+a.txtLink:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0B70CE;
+	text-decoration: none;
+}
+a.txtNullLink:visited, a.txtNullLink:link, a.txtNullLink:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.textbox, .textBox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #444444;
+	font-size: 11px;
+	height:13px;
+	line-height:13px;
+	width:200px;
+	background-color: #FFFFFF;
+	border: 1px solid #aaaaaa;
+}
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #444444;
+	font-size: 11px;
+	height:auto !important;
+	line-height:13px;
+	width:200px;
+	background-color: #FFFFFF;
+	border: 1px solid #aaaaaa;
+}
+select{
+	height:17px !important;
+	padding:1px;
+	font-size: 11px;
+	line-height:13px;
+}
+.infoText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00529B;
+	background-color: #BDE5F8;
+	border: 1px solid #00529B;
+	padding: 2px;
+}
+.warnText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #D8000C;
+	background-color: #FFBABA;
+	border: 1px solid #D8000C;
+	padding: 2px;
+}
+.training {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #9F6000;
+	background-color: #FEEFB3;
+	border: 1px solid #9F6000;
+	padding: 2px;
+}
+a.copyright:hover, a.copyright:visited, a.copyright:link, a.copyright:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+.pageTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #0B70CE;
+	font-weight: bold;
+}
+.noPad {
+	padding: 0px;
+}
+
+.txtLogin {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+li {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+.txtDir {
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.txtRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.imgPreview {
+	background-color: #000000;
+	border: 1px solid #000000;
+}
+.greyBg {
+	background-color: #CCCCCC;
+}
+.hiddenTextbox {
+	width: 1px;
+	border: none;
+	background-color: #EFEFDE;
+}
+.dirTextbox {
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #A5ACB2;
+	width: 75%
+}
+.subHead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #999999;
+	border-bottom: 1px solid #666666;	
+}
+.btmSubNav {
+	border-top: 1px solid #666666;
+}
+
+a.breadcrumb:link, a.breadcrumb:active, a.breadcrumb:visited  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #3333FF;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.breadcrumb:hover {
+	color: #FF9900;
+}
+.leftNavActive{
+	
+}
